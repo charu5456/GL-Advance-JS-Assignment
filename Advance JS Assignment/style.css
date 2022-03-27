@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.wpm, .cpm, .timer, .accuracy, .errors {
+    background-color: rgb(122, 255, 140);
+    width: 100%;
+    margin: 2%;
+    padding: 8px;
+    border-radius: 15%;
+    border: 1px solid rgb(46, 158, 61);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.cpm, .wpm {
+    display: none;
+}
+.heading {
+    font-size: 14px;
+    font-weight: 600;
+}
+.WPM, .CPM, .time, .Accuracy, .Errors {
+    font-size: 35px;
+}
+.h1 {
+    background-color: rgb(203, 250, 203);
+    border: 3px solid rgb(72, 209, 129);
+    font-size: 20px;
+    margin: 20px;
+    padding: 25px;
+}
+.textBox {
+    background-color: rgb(230, 250, 185);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+.restart {
+    display: none;
+    background-color: #07d429;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.incorrect_char {
+    color: red;
+    text-decoration: underline;
+}
+.correct_char {
+    color: rgb(5, 199, 102);
+}
